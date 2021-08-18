@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="code.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+        <script>
+        $(function() {
+            $(".btn").click(function() {
+                $(".submenu").slideToggle(500);
+            });
+        }); 
+        </script>
+    </head>
+	<body>
+
+    <header>
+        <div class="container">
+        <h1>Foods and Dines</h1>
+        <h2>Good and Hygienic Food at Your Door Step!</h2>
+        <a class="btn">Order Now</a>
+        <!--<div class="submenu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+        </div>-->
+        </div>
+    </header>
+    
+    <section class="features">
+        <div class="container">
+        <div class="feature">
+            <img src="indian.jpg" alt=""/>
+            <p><b><i>Indian</i></b></p>
+        </div>
+        <div class="feature">
+            <img src="conti.jpg" alt=""/>
+            <p><b><i>Continental</i></b></p>
+        </div>
+        <div class="feature">
+            <img src="snack.jpg" alt=""/>
+            <p><b><i>Snacks</i></b></p>
+        </div>
+        </div>
+    </section>
+
+    <section class="quote">
+        <blockquote class="container">
+      <p><i>"The Belly Rules the Mind."</i></p>
+    </blockquote>
+    </section>
+    
+    <footer>
+  <div class="container">
+    <!--<ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>-->
+    <p><b>2021&copy; All rights reserved.</b></p>
+  </div>
+</footer>
+</body>
+</html>
